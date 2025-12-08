@@ -1,0 +1,25 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="F119FFD95C" name="Decameron_Decameron_-_Capa_de_Datos" version="1.0" alias="Decameron - Capa de Datos" notes="Alias=Decameron - Capa de Datos;"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Decameron - Capa de Datos" notes="" cx="249" cy="127" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Decameron::Base de datos(UML::Class)" type="" description="" unit="" values="" default="Base de datos"/>
+					<Tag name="Decameron::ETL(UML::Component)" type="" description="" unit="" values="" default="ETL"/>
+					<Tag name="Decameron::Repositorio(UML::Class)" type="" description="" unit="" values="" default="Repositorio"/>
+					<Tag name="EAUML::function(UML::Class)" type="" description="" unit="" values="" default="Función"/>
+					<Tag name="EAUML::procedure(UML::Class)" type="" description="" unit="" values="" default="Procedimiento"/>
+					<Tag name="EAUML::table(UML::Class)" type="" description="" unit="" values="" default="Tabla"/>
+					<Tag name="EAUML::view(UML::Class)" type="" description="" unit="" values="" default="Vista"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

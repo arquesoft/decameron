@@ -1,0 +1,19 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="68BB1954A9" name="Decameron_Decameron_-_Capa_de_Ciberseguridad" version="1.0" alias="Decameron - Capa de Ciberseguridad" notes="Alias=Decameron - Capa de Ciberseguridad;"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Decameron - Capa de Ciberseguridad" notes="" cx="103" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="UML::Risk" type="" description="" unit="" values="" default="Riesgo"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

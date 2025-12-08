@@ -1,0 +1,80 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="B7C4694FE8" name="Decameron_Decameron_-_General" version="1.0" alias="Decameron - General" notes="Alias=Decameron - General;"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Decameron - Capa de Negocio" notes="" cx="332" cy="179" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="ArchiMate3::ArchiMate_BusinessActor(UML::Class)" type="" description="" unit="" values="" default="Actor de Negocio"/>
+					<Tag name="ArchiMate3::ArchiMate_BusinessInterface(UML::Interface)" type="" description="" unit="" values="" default="Canal de venta"/>
+					<Tag name="ArchiMate3::ArchiMate_BusinessService(UML::Activity)" type="" description="" unit="" values="" default="Servicio de Negocio"/>
+					<Tag name="ArchiMate3::ArchiMate_Location(UML::Class)" type="" description="" unit="" values="" default="Hotel"/>
+					<Tag name="Decameron::Macroproceso(UML::Activity)" type="" description="" unit="" values="" default="Macroproceso"/>
+					<Tag name="Decameron::Proceso(UML::Activity)" type="" description="" unit="" values="" default="Proceso"/>
+					<Tag name="Decameron::Subproceso(UML::Activity)" type="" description="" unit="" values="" default="Subproceso"/>
+					<Tag name="UML::Artifact" type="" description="" unit="" values="" default="Documento"/>
+					<Tag name="UML::Feature" type="" description="" unit="" values="" default="Control"/>
+					<Tag name="UML::Risk" type="" description="" unit="" values="" default="Riesgo"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Decameron - Capa de Aplicación" notes="" cx="267" cy="114" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Decameron::Componente(UML::Component)" type="" description="" unit="" values="" default="Componente"/>
+					<Tag name="Decameron::Operación(UML::ProvidedInterface)" type="" description="" unit="" values="" default="Operación"/>
+					<Tag name="Decameron::Plataforma(UML::Component)" type="" description="" unit="" values="" default="Plataforma"/>
+					<Tag name="Decameron::Runtime(UML::Component)" type="" description="" unit="" values="" default="Runtime"/>
+					<Tag name="Decameron::Servicio(UML::Component)" type="" description="" unit="" values="" default="Servicio"/>
+					<Tag name="Decameron::Solución(UML::PackagingComponent)" type="" description="" unit="" values="" default="Solución"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Decameron - Capa de Datos" notes="" cx="249" cy="127" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Decameron::Base de datos(UML::Class)" type="" description="" unit="" values="" default="Base de datos"/>
+					<Tag name="Decameron::ETL(UML::Component)" type="" description="" unit="" values="" default="ETL"/>
+					<Tag name="Decameron::Repositorio(UML::Class)" type="" description="" unit="" values="" default="Repositorio"/>
+					<Tag name="EAUML::function(UML::Class)" type="" description="" unit="" values="" default="Función"/>
+					<Tag name="EAUML::procedure(UML::Class)" type="" description="" unit="" values="" default="Procedimiento"/>
+					<Tag name="EAUML::table(UML::Class)" type="" description="" unit="" values="" default="Tabla"/>
+					<Tag name="EAUML::view(UML::Class)" type="" description="" unit="" values="" default="Vista"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Decameron - Capa de Infraestructura" notes="" cx="343" cy="166" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Decameron::Balanceador de carga(UML::Node)" type="" description="" unit="" values="" default="Balanceador de carga"/>
+					<Tag name="Decameron::Firewall(UML::Node)" type="" description="" unit="" values="" default="Firewall"/>
+					<Tag name="Decameron::Instancia Base de datos(UML::Component)" type="" description="" unit="" values="" default="Instancia Base de datos"/>
+					<Tag name="Decameron::Instancia Componente(UML::Component)" type="" description="" unit="" values="" default="Instancia Componente"/>
+					<Tag name="Decameron::Instancia de runtime(UML::Component)" type="" description="" unit="" values="" default="Instancia Runtime"/>
+					<Tag name="Decameron::Instancia Servicio(UML::Component)" type="" description="" unit="" values="" default="Instancia Servicio"/>
+					<Tag name="Decameron::Ruta(UML::Class)" type="" description="" unit="" values="" default="Ruta"/>
+					<Tag name="Decameron::Servidor(UML::Class)" type="" description="" unit="" values="" default="Servidor"/>
+					<Tag name="UML::Artifact" type="" description="" unit="" values="" default="Archivo"/>
+					<Tag name="UML::Port" type="" description="" unit="" values="" default="Puerto"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Decameron - Capa de Ciberseguridad" notes="" cx="103" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="UML::Risk" type="" description="" unit="" values="" default="Riesgo"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

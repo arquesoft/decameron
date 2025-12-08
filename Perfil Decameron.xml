@@ -1,0 +1,531 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="09725F3154" name="Decameron" version="1.0" notes="Decameron"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Balanceador de carga" metatype="Balanceador de carga" notes="" cx="0" cy="0" bgcolor="8912775" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Node">
+						<Property name="isExecutionEnvironment" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Base de datos" metatype="Base de datos" instanceType="Instancia Base de datos" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAxLm0zamU05x415Nf2I9S2I9S15Nf05x4zamU
+xLm0wMDAwMDAwMDAwMDAwMDAy62d2I9S1YhG04I7141P2I9S2I9S2I9S1ZJi
+1ZJi2I9Sy62dwMDAwMDAwMDAwMDA141Q04E41olI2I9S2I9S2I9S2I9S2I9S
+1ZJi1ZJixoyM2I9TwMDAwMDAwMDAwMDA2I9S1otM04E50Honz3UTznMFznMF
+z3UT0Hon04E51otL2I9SwMDAwMDAwMDAwMDA1IQ+0Hgg04I71olI141P2I9S
+2I9S141P1olI04I70Hgg1IQ+wMDAwMDAwMDAwMDA0oA32I9S1YhG04I7141P
+2I9S2I9S2I9S1I5h1I5h2I9S0oA3wMDAwMDAwMDAwMDA141Q04E41olI2I9S
+2I9S2I9S2I9S2I9S1I5h1I5hx5+M2I9TwMDAwMDAwMDAwMDA2I9S1otM04E5
+0Honz3UTznMFznMFz3UT0Hon04E51otL2I9SwMDAwMDAwMDAwMDA1IQ+0Hgg
+04I71olI141P2I9S2I9S141P1olI04I70Hgg1IQ+wMDAwMDAwMDAwMDA0oA3
+2I9S1YhG04I7141P2I9S2I9S2I9S1ZJi1ZJi2I9S0oA3wMDAwMDAwMDAwMDA
+141Q04E41olI2I9S2I9S2I9S2I9S2I9S1ZJi1ZJixoyM2I9TwMDAwMDAwMDA
+wMDA2I9S25hj4KmA5LSQ5rmW57qY5reT5LCH4ah53qBu2pRc2I9SwMDAwMDA
+wMDAwMDA4ayG7Mqy7Mqy7Mqy7Mqy7Mqy7Mqy7Mqy6sar5rmV466C3Z5rwMDA
+wMDAwMDAwMDA7Mqy7Mqy7Mqy7Mqy7Mqy7Mqy7Mqy7Mqy7Mqy7Mqy57qZ466C
+wMDAwMDAwMDAwMDA1MS67Mqy7Mqy7Mqy7Mqy7Mqy7Mqy7Mqy7Mqy7Mqy57yb
+0LmowMDAwMDAwMDAwMDAwMDAyMK+2MW548i16cmz7Mqy7Mqy6cmz48i12MS2
+xr24wMDAwMDAwMDA
+</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOqMh1sBQuxEPQIAAKoJAAAHABEAc3RyLmRhdFVUDQAH6bs1
+aem7NWnpuzVpzVbbTttAED2vQeo/rMKLW1UqBCG1qvrW9qlIqPCOkpCC21xQ
+7FRCiI/lA/rED3DOrDe7dhxIBEiVlV17PJczZ2cmLnCJPq4wgsOEdzmmuMEb
+7KCDgtISvygb8xpixnWGOTL0cMDrPW16OOQV797ic2V9Qts+tUsccy8ZJ1u+
+ddX1zTznjK9YGfbM08dq3+ee3sna4QMvbxnsHM5tla5sHeNFa797TN+rXFYR
+df5j1MI0J/N/qF9HFfz+5BthGvH0hN7h2vznGGCB35VMOo4SnaFix7zT7DZh
+QPGGpjfFhcUNLAh3nYVPDQ6C7Z3ZLqymUi5kWedCHtLo7ae4nguf97wlbmQg
++PY+vjaYGxse+YmnV/C9+mZOmRh1xKEemSLl2J+EYgdMM6Ldlu/2imsy3Wsw
+va7amvzK7jn8bldrz+mx18r4NTtss+oqbP9H76Pq6S9UWyV1h5QosqQZVz+H
+0zjbV9QRbRXhlHvau2nOQUcYxZ7vgitKC0OV496qXf8Z/lk4A+9BW/0xMS/e
+R8gxRfPDfNTRNOfGKmvBU/v0aJsc9azrk/qlM1cNas5MKd008/VT8+ns03+O
+x+fn09W+Gm21Qt9RM+3qPnGc21QccA1fFRm6NvMmlGoKdhsd7O9CdQZf0d7V
+rP3b8H3SodaZMZ+TaZ3HF/66PA91aWnn11167vBEU+3HddVbY+YTfIqxheGP
+OiPrf/XaAOpPfSlpAkQrzQrVfmrlO0Ixx1zFz+5Sb5dPkYvbio9bWx8AUEsB
+AhcLFAAAAAgA6oyHWwFC7EQ9AgAAqgkAAAcACQAAAAAAAAAAAACAAAAAAHN0
+ci5kYXRVVAUAB+m7NWlQSwUGAAAAAAEAAQA+AAAAcwIAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Motor base de datos" type="" description="" unit="" values="" default=""/>
+					<Tag name="Versión motor base de datos" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Componente" metatype="Componente" instanceType="Instancia Componente" notes="" cx="0" cy="0" bgcolor="16777193" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpXwXpXwXpX
+wXpXwXpXwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX///p///p///p///p///p
+///p///p///pwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX///p///p///p///p
+///p///p///p///pwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX///p///p///p
+///p///p///p///p///pwXpXwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpX
+///p///p///p///p///p///pwXpXwMDAwMDAwMDAwMDAwXpX///p///p///p
+wXpX///p///p///p///p///p///pwXpXwMDAwMDAwMDAwMDAwXpXwXpXwXpX
+wXpXwXpX///p///p///p///p///p///pwXpXwMDAwMDAwMDAwMDAwMDAwMDA
+wXpX///p///p///p///p///p///p///p///pwXpXwMDAwMDAwMDAwMDAwXpX
+wXpXwXpXwXpXwXpX///p///p///p///p///p///pwXpXwMDAwMDAwMDAwMDA
+wXpX///p///p///pwXpX///p///p///p///p///p///pwXpXwMDAwMDAwMDA
+wMDAwXpXwXpXwXpXwXpXwXpX///p///p///p///p///p///pwXpXwMDAwMDA
+wMDAwMDAwMDAwMDAwXpX///p///p///p///p///p///p///p///pwXpXwMDA
+wMDAwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpX
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="ETL" metatype="ETL" notes="" cx="0" cy="0" bgcolor="13224376" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Firewall" metatype="Firewall" notes="" cx="0" cy="0" bgcolor="9699219" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Node">
+						<Property name="isExecutionEnvironment" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Instancia Base de datos" metatype="Instancia Base de datos" notes="" cx="0" cy="0" bgcolor="12648352" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpXwXpXwXpX
+wXpXwXpXwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S1f/S
+1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S
+1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S
+1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpX
+1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S
+wXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpXwXpXwXpX
+wXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDA
+wXpX1f/S1f/S1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpX
+wXpXwXpXwXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDA
+wXpX1f/S1f/S1f/SwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDA
+wMDAwXpXwXpXwXpXwXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDA
+wMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDA
+wMDAwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpX
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Ambiente" type="" description="" unit="" values="" default=""/>
+					<Tag name="IP" type="" description="" unit="" values="" default=""/>
+					<Tag name="Motor base de datos" type="" description="" unit="" values="" default=""/>
+					<Tag name="Puerto" type="" description="" unit="" values="" default=""/>
+					<Tag name="Versión base de datos" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Instancia Componente" metatype="Instancia Componente" notes="" cx="0" cy="0" bgcolor="15335401" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpXwXpXwXpX
+wXpXwXpXwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S1f/S
+1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S
+1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S
+1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpX
+1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S
+wXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpXwXpXwXpX
+wXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDA
+wXpX1f/S1f/S1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpX
+wXpXwXpXwXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDA
+wXpX1f/S1f/S1f/SwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDA
+wMDAwXpXwXpXwXpXwXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDA
+wMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDA
+wMDAwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpX
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Ambiente" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Instancia de runtime" metatype="Instancia de runtime" notes="" cx="0" cy="0" bgcolor="10551200" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpXwXpXwXpX
+wXpXwXpXwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S1f/S
+1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S
+1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S
+1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpX
+1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S
+wXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpXwXpXwXpX
+wXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDA
+wXpX1f/S1f/S1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpX
+wXpXwXpXwXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDA
+wXpX1f/S1f/S1f/SwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDA
+wMDAwXpXwXpXwXpXwXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDA
+wMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDA
+wMDAwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpX
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Instancia Servicio" metatype="Instancia Servicio" notes="" cx="0" cy="0" bgcolor="13762513" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpXwXpXwXpX
+wXpXwXpXwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S1f/S
+1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S
+1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S
+1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpX
+1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S
+wXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpXwXpXwXpX
+wXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwMDAwMDA
+wXpX1f/S1f/S1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDAwXpX
+wXpXwXpXwXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDAwMDA
+wXpX1f/S1f/S1f/SwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDAwMDA
+wMDAwXpXwXpXwXpXwXpXwXpX1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDAwMDA
+wMDAwMDAwMDAwMDAwXpX1f/S1f/S1f/S1f/S1f/S1f/S1f/S1f/SwXpXwMDA
+wMDAwMDAwMDAwMDAwMDAwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpXwXpX
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Ambiente" type="" description="" unit="" values="" default=""/>
+					<Tag name="Endpoint" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Macroproceso" metatype="Macroproceso" notes="" cx="0" cy="0" bgcolor="12582910" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessProcess" baseStereotypes="ArchiMate3::ArchiMate_BusinessProcess">
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Operación" metatype="Operación" notes="" cx="0" cy="0" bgcolor="15453831" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ProvidedInterface"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Plataforma" metatype="Plataforma" notes="" cx="0" cy="0" bgcolor="13092758" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAwMDAwMDAwMDAAAAAx8eWx8eWx8eWx8eWx8eWx8eWx8eW
+x8eWx8eWx8eWx8eWAAAAwMDAwMDAwMDAAAAAx8eWx8eWx8eWx8eWx8eWx8eW
+x8eWx8eWx8eWx8eWx8eWAAAAwMDAwMDAwMDAAAAAx8eWx8eWx8eWx8eWx8eW
+x8eWx8eWx8eWx8eWx8eWx8eWAAAAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAA
+x8eWx8eWx8eWx8eWx8eWx8eWx8eWAAAAwMDAwMDAAAAAx8eWx8eWx8eWx8eW
+AAAAx8eWx8eWx8eWx8eWx8eWx8eWx8eWAAAAwMDAwMDAAAAAAAAAAAAAAAAA
+AAAAAAAAx8eWx8eWx8eWx8eWx8eWx8eWx8eWAAAAwMDAwMDAwMDAAAAAx8eW
+x8eWx8eWx8eWx8eWx8eWx8eWx8eWx8eWx8eWx8eWAAAAwMDAwMDAAAAAAAAA
+AAAAAAAAAAAAAAAAx8eWx8eWx8eWx8eWx8eWx8eWx8eWAAAAwMDAwMDAAAAA
+x8eWx8eWx8eWx8eWAAAAx8eWx8eWx8eWx8eWx8eWx8eWx8eWAAAAwMDAwMDA
+AAAAAAAAAAAAAAAAAAAAAAAAx8eWx8eWx8eWx8eWx8eWx8eWx8eWAAAAwMDA
+wMDAwMDAAAAAx8eWx8eWx8eWx8eWx8eWx8eWx8eWx8eWx8eWx8eWx8eWAAAA
+wMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Motor base de datos" type="" description="" unit="" values="" default=""/>
+					<Tag name="Runtime" type="" description="" unit="" values="" default=""/>
+					<Tag name="Sistema Operativo" type="" description="" unit="" values="" default=""/>
+					<Tag name="Soporte hasta" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Proceso" metatype="Proceso" notes="" cx="0" cy="0" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessProcess" baseStereotypes="ArchiMate3::ArchiMate_BusinessProcess">
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Proyecto" metatype="Proyecto" notes="" cx="0" cy="0" bgcolor="15329791" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAAAAAwMD/wMD/wMD/wMD/wMD/wMD/
+wMD/wMD/wMD/wMD/wMD/AAAAwMDAwMDAwMDAAAAAwMD/wMD/wMD/wMD/wMD/
+wMD/wMD/wMD/wMD/wMD/wMD/AAAAwMDAwMDAwMDAAAAAwMD/wMD/wMD/wMD/
+wMD/oaHWAAAAAAAAAAAAwMD/wMD/AAAAwMDAwMDAwMDAAAAAwMD/wMD/wMD/
+wMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/AAAAwMDAwMDAwMDAAAAAwMD/wMD/
+wMD/oaHWAAAAAAAAAAAAwMD/wMD/wMD/wMD/AAAAwMDAwMDAwMDAAAAAwMD/
+wMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/AAAAwMDAwMDAwMDAAAAA
+wMD/AAAAAAAAAAAAAAAAwMD/wMD/wMD/wMD/wMD/wMD/AAAAwMDAwMDAwMDA
+AAAAwMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/AAAAwMDAwMDA
+wMDAAAAAwMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/wMD/AAAAwMDA
+wMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAAAAAoaHWoaHWoaHWoaHWAAAAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKxdiFsx7V2SlQEAABAFAAAHABEAc3RyLmRhdFVUDQAHQro2
+aUK6NmlCujZppVTbSsNAFJzXCP5DSF4qeKtoVcQHUR98sII/ILkZA82FJlWK
++EV+gj/nnN0mm6StFEvYzWZ3ZvacM6ct8QYPBSLYSLlKkOETu9iBhZK7FV65
+N+ETIOecY4oBTnCKM+yTM8QljherC5xjD1cL9pTsgHyPijGZEXmClDHkbN6G
+c8QnJNPDB1ke2QneySybKActtEdsyLMZ/A7CIUtyifmV8UtHp2+U1WgjjYy5
+ptyVPP6rIZFXnEUjV9kUfPfVRqycUatrb3xpR6JPa4csol6Im1A5Js7GNYfD
+ukvm+manUbZYyzZaYyuqFx2Ur5wOG7WKKjNVBYOJeJ4od33lrXRJ1GGJf2mP
+VVBJOqwiMlMVchucyy9Tha+11Wh7ay/V46E5tZX+He5xixs88v2MJ4xxoKLI
+MYfuzxyH3JEe1b7U/Vw7bTzv9ur6CFe73o90e+fEp0plkHaw2hfBBn96uOzG
+N13oxj5XObn4WeGOnmWEqpby36B/s7nKSO6Xlc69zlxQ0ityr0HrKMd0yUS4
+vZebOGmykPELUEsBAhcLFAAAAAgArF2IWzHtXZKVAQAAEAUAAAcACQAAAAAA
+AAAAAACAAAAAAHN0ci5kYXRVVAUAB0K6NmlQSwUGAAAAAAEAAQA+AAAAywEA
+AAAA
+</Image>
+				<AppliesTo>
+					<Apply type="PackagingComponent"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Repositorio" metatype="Repositorio" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+
+vr6+vr6+vr6+vr6+wMDApKSkWFhYV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dX
+V1dXV1dXV1dXV1dXWFhYnZ2dmJiY6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA
+6KIA6KIA6KIA6KIA6KIA6KIAkJCQmJiY6KIA6KIA6KIA6KIA6KIA6KIA6KIA
+6KIA6KIA6KIA6KIA6KIA6KIA6KIAkJCQmJiY6KIA6KIA6KIA6KIA6KIA6KIA
+6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIAkJCQmJiY6KIA6KIA6KIA6KIA6KIA
+6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIAkJCQmJiY6KIA6KIA6KIA6KIA
+6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIAkJCQmJiY6KIA6KIA6KIA
+6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIAkJCQmJiY6KIA6KIA
+6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIAkJCQmJiY6KIA
+6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIA6KIAkJCQmpqa
+HR0dHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHR0dkZGR
+nZ2dSEhHR0dGR0dGR0dGUFBQeHh4enp5enp5enp5enp5enp5enp5enp5fHx8
+r6+vrq6ua2tqaGhoaGhoaWlonZ2dwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAvr6+vr6+vr6+vr6+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAK6Nh1t/k2VCFAEAAN4CAAAHABEAc3RyLmRhdFVUDQAHI701
+aSO9NWkjvTVpjZHdToNAEIXPLSa+A6E3NekFpZpojC/hCxgotCUplFDwxvju
+fuzCsq01MRuWmZ3zM7tz1kGpGhUKVRGVqvWle90p0JnTTjvOjqytTuwntVoq
+0Ya1gpPoiTVHD3od2e9ge9RyogJ2By8G+cK3Jhri6T9obTzu385rPetx9IvJ
+5sh3tn4p7nuYhel4NTrZHmZ0Soc5jr0y9uk1lorIGrItWUvmd538i1/Tc8Vp
+Sz7wQ6cQ0kFsNAJ343kOvq+tThMJqLRmRh33qo1L5PXyfUPN7+Ja7aAPcEcU
+9+BCvfFF5sV2OERON9DnBdLiOpSbC1RmJpU7pQ7X3tx+xhTUSzOdbHQq2X1W
+Ta26Yv2+98LhFjfewO4/UEsBAhcLFAAAAAgAro2HW3+TZUIUAQAA3gIAAAcA
+CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAByO9NWlQSwUGAAAAAAEAAQA+
+AAAASgEAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Runtime" metatype="Runtime" instanceType="Instancia de runtime" notes="" cx="0" cy="0" bgcolor="16760919" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwcHAvLWxu7SxwL69wMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAvbGqlVYEllcGsp2RwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAuaecro98taGVn3BNllcFllcGm2Y6
+sJaHs5uNsJSCwcDAwMDAwMDAwMDAwMDAu6yil1gJllcHnGMyy7ap5NrT5t3X
+08O5pHZSl1gFl1gGsJWEwMDAwMDAwMDAwMDAvLGqllcIp3la8+3q8uHL6MOP
+5sCI79q8+PTvuZmGl1gGtJ6RwMDAwMDAwMDAwMDAuq6nllgJ7OXg682l3aUy
+3qUy3qUy3qUy5Lp8+PTvo3JNs5yOwMDAwMDAwMDAuaympn5jt5eC9uze3aUz
+36c78Nq+4KxS36Uz3qUy79q+0L60nmtCtaabwcC/wMDAoHFRllcGzrux7ta3
+3qUz4KlC/v3/+/jz6sqg3qUy5sCJ5NrTllgIl1gIwbu3wMDAoHFRllcGzbqw
+79e436Yz4KlC/v3/+/bv6ceZ3qUy5sGK49nSlVgIllcHwby3wMDAuq+oqYJo
+tZN99+7h3qUz36c679W336pI3qUy3aUy8NrBz7ywnm5IuKmgwsHAwMDAwMDA
+u7Cpl1gH6uPd7NGu3aQy3qUy3qQz3aUy5b6E9vLuoW9GtJ6RwMDAwMDAwMDA
+wMDAu6+nllcEpXRS7ujl9OXS6cib58ST8N3D9/PttZJ8l1gItJyOwMDAwMDA
+wMDAwMDAuayjllgIllYEml4ixq6g4NXP4tjSz7yxoW9Hl1gIlFcGspqLwMDA
+wMDAwMDAwMDAwMDAt6edr5OBtaSaonZVllgHl1gHoGtAspqMtaCTs5qLwsHB
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAvLKrllcFl1gHs5+TwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwcHAvLazu7aywb++wMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Ruta" metatype="Ruta" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+
+vr6+vr6+vr6+vr6+wMDApKSkWFhYV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dX
+V1dXV1dXV1dXV1dXWFhYnZ2dmJiYEhISEhISEhISEhISFRUVGBgYGBgYGBgY
+GBgYFhYWEhISEhISEhISEhISkJCQmJiYEhISEhISEhISEhISLi4uKSkpKSkp
+KSkpKSkpLi4uEhISEhISEhISEhISkJCQmJiYEhISEhISEhISEhISLCwsEhIS
+EhISEhISEhISLCwsEhISEhISEhISEhISkJCQmJiYEhISEhISEhISEhISLCws
+EhISEhISEhISEhISLCwsEhISEhISEhISEhISkJCQmJiYEhISEhISEhISEhIS
+LCwsEhISEhISEhISEhISLCwsEhISEhISEhISEhISkJCQmJiYEhISEhISEhIS
+EhISLCwsEhISExMTMzMzNTU1KysrEhISEhISEhISEhISkJCQmJiYEhISEhIS
+EhISEhISLCwsEhISFRUVQkJCMjIyExMTEhISEhISEhISEhISkJCQmJiYEhIS
+EhISEhISEhISLCwsLS0tLy8vLCwsEhISEhISEhISEhISEhISEhISkJCQmpqa
+HR0dHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHR0dkZGR
+nZ2dSEhHR0dGR0dGR0dGUFBQeHh4enp5enp5enp5enp5enp5enp5enp5fHx8
+r6+vrq6ua2tqaGhoaGhoaWlonZ2dwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAvr6+vr6+vr6+vr6+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACaQh1vLaY0ADgEAAOICAAAHABEAc3RyLmRhdFVUDQAH78A1
+ae/ANWnvwDVpjZHPToNAEMa/Kya+A6GXmvRQ0R6M8SV8AQOFtiSFEgpejO/u
+j11YFmyMIbvM7Hx/ZneuOilRrVyhSqJClb50rzsFunLa6sDZmW+vC/tFjdaK
+9aydNnCW0YNeB/Y72A61jCiH3cLbgnxhPRL18fh/Mmvi/uUcO7955DtbvwT3
+I8zc8DaDk+1hQid0mOHYKWUfX2OtiKwm25M1ZH7X8b/4FT2XnDbkPT90CiEd
+bI1G4G48zcH3tdVxIgGVxsyo5V6VcYm8Xr5vqPldLNVO+gB3RvEILtQbKzIv
+dsAhcrqBPmdIi2tRrmeo1Ewqc0otrp25/YTJqRdmOungVLD7rIpauWD9vvfK
+4VY33sDu/foBUEsBAhcLFAAAAAgAJpCHW8tpjQAOAQAA4gIAAAcACQAAAAAA
+AAAAAACAAAAAAHN0ci5kYXRVVAUAB+/ANWlQSwUGAAAAAAEAAQA+AAAARAEA
+AAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Servidor" type="" description="" unit="" values="" default=""/>
+					<Tag name="Unidad" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Servicio" metatype="Servicio" instanceType="Instancia Servicio" notes="" cx="0" cy="0" bgcolor="15453831" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAp56bpI6EpI6EpI6EpI6EpI6EpI6EpI6EpI6EpI6EpI6EpI6E
+pY6Fxbavh5CcpJ+fwKqg/uje/uje/eXZ/OLU+tzM+dnH+dnH+dnH+dnH+dnH
++dnH4cKxaZOwaNH+b5u1xrGp/+zj/+zj/+zj/+zj/+zj/uje++DR+dnH+dnH
++dnH4cKxaJWya9L/fc3xkJKYxrGp/+zj/+zj/+zj/+zj/+zj/+zj/+zj+eLX
+wqSWs6ajZp+/bdL/fc3xrJ2Zv7ezxrGp/+zj/+zj/+zj8+DX9eLZ/+zj/+zj
+lZunWsLvcNP/ddX/fc3xsKCc+NjGm5KPxrGp/+zj6tbNz7qypKlrpKRuzrqx
+18O6WKXLsaioi6e6gNj/hKC0+NjG+dnHm5KPxrGp/+zjzLmuuOc2q9Q0p80z
+teQ1xbCnz7uy/+zj18O6eLnZlKCr+dnH+dnHm5KPxrGp8+DXpqtssNw12MS7
+3srBqM4zoqBu9eLZ9ODYfp6zdqzJ17+z+dnH+dnHm5KPxrGp8+DXqrZqsNw1
+2MS73srBqdEzqLJr8+DX+ebdyLOq6dbN/+zj+t7O+dnHm5KPxrGp/+zjzbyt
+uuw2sNs0rdY0uOg2z7uy/+zj/+zj/+zj/+zj/+zj/ebb+dnHm5KPxrGp/+zj
+59PKzLqtqrZrpqtszbyt6tbN/+zj/+zj/+zj/+zj/+zj/+zj+drJm5KPxLKq
+07+207+207+2w66mxK+m07+207+207+207+207+207+207+207+20LSmtK2q
+uJEp6r8o6r8o6r8o6r8o6r8o6r8o6r8o6r8o6r8o6r8o6r8o6r8o6r8o6r8o
+m5KPxp4ps5FZto8qimpVtI0ytZJS/9Enl3plqJGIqJGIqJGIqJGIqJGInYR7
+5rsom5KPwZkp6r4o88Yn3bIo88Yn6r8o/9En6Lwo3LEo3LEo3LEo3LEo3LEo
+37Qo+csnnpWTp52Vpoxipoxipoxipoxipoxipoxipoxipoxipoxipoxipoxi
+poxipoxipI1wuLa2
+</Icon>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Servidor" metatype="Servidor" notes="" cx="0" cy="0" bgcolor="11468718" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Node" baseStereotypes="ArchiMate3::ArchiMate_Node">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Cores" type="" description="" unit="" values="" default=""/>
+					<Tag name="Espacio en disco (Gb)" type="" description="" unit="" values="" default=""/>
+					<Tag name="IP" type="" description="" unit="" values="" default=""/>
+					<Tag name="RAM (Gb)" type="" description="" unit="" values="" default=""/>
+					<Tag name="Sistema operativo" type="" description="" unit="" values="" default=""/>
+					<Tag name="Versión sistema operativo" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Solución" metatype="Solución" notes="" cx="0" cy="0" bgcolor="16777120" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAwMDAwMDAwMDAAAAA///A///A///A///A///A///A///A
+///A///A///A///AAAAAwMDAwMDAwMDAAAAA///A///A///A///A///A///A
+///A///A///A///A///AAAAAwMDAwMDAwMDAAAAA///A///A///A///A///A
+///A///A///A///A///A///AAAAAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAA
+///A///A///A///A///A///A///AAAAAwMDAwMDAAAAA///A///A///A///A
+AAAA///A///A///A///A///A///A///AAAAAwMDAwMDAAAAAAAAAAAAAAAAA
+AAAAAAAA///A///A///A///A///A///A///AAAAAwMDAwMDAwMDAAAAA///A
+///A///A///A///A///A///A///A///A///A///AAAAAwMDAwMDAAAAAAAAA
+AAAAAAAAAAAAAAAA///A///A///A///A///A///A///AAAAAwMDAwMDAAAAA
+///A///A///A///AAAAA///A///A///A///A///A///A///AAAAAwMDAwMDA
+AAAAAAAAAAAAAAAAAAAAAAAA///A///A///A///A///A///A///AAAAAwMDA
+wMDAwMDAAAAA///A///A///A///A///A///A///A///A///A///A///AAAAA
+wMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAARdiFtaT4EHkgEAAAwFAAAHABEAc3RyLmRhdFVUDQAHErk2
+aRK5NmkSuTZppVTbSsNAFJzXCP5DaF8qeKtgUcQHUR98sII/UNIm1kBzoU0V
+Eb/IT/DnnNltskkvUiwhe52ZPefMJjO8IkCOCD4SjmKk+MQ+9uBhxtUCL1yb
+8BkhY5thig666OEUh+Sc4ZyPGx3gasGekj0iP6DimMyIPHH0dtm63nFO+IRk
+BngnKyA7xhuZsyrKTg0dEBtyb45hA9EiS7mMOUs5U3TliRr1ttJImWvCVeXx
+Xw1FXrCVRmayydkvq/VwUVMra+98qUdid0uHPKIGxE2oPCbOxzXfFuuuzO3J
+rUrZYy3raIstqJ43UEPjdFipFVSZmyo4TMT92Lg7NN7qlkQNlvxLllg5lXTD
+CiJTU6F2hWtz5qrwtbEadW/9lXo8VLu+0b/DPW5xg0f2z3hCH0dUU35zVinm
+KMUxlXVHrS+XC1dKp53nzbu6OcL1ri9Hurtz8qkw/iUNrPVF2NGfHq668U0X
+mrF/mJza+Fnjjm31htC3rn+D/WZVVTmlNd1eYcrMhdJd0bkObaPs0yUX4e5e
+buOky+IXUEsBAhcLFAAAAAgABF2IW1pPgQeSAQAADAUAAAcACQAAAAAAAAAA
+AACAAAAAAHN0ci5kYXRVVAUABxK5NmlQSwUGAAAAAAEAAQA+AAAAyAEAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="PackagingComponent"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Lenguaje de programación" type="" description="" unit="" values="" default=""/>
+					<Tag name="Runtime" type="" description="" unit="" values="" default=""/>
+					<Tag name="Tipo de Aplicación" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Subproceso" metatype="Subproceso" notes="" cx="0" cy="0" bgcolor="12058622" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessProcess" baseStereotypes="ArchiMate3::ArchiMate_BusinessProcess">
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

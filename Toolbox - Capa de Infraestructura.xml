@@ -1,0 +1,28 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="86D4D02F4B" name="Decameron_Decameron_-_Capa_de_Infraestructura" version="1.0" alias="Decameron - Capa de Infraestructura" notes="Alias=Decameron - Capa de Infraestructura;"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Decameron - Capa de Infraestructura" notes="" cx="343" cy="166" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Decameron::Balanceador de carga(UML::Node)" type="" description="" unit="" values="" default="Balanceador de carga"/>
+					<Tag name="Decameron::Firewall(UML::Node)" type="" description="" unit="" values="" default="Firewall"/>
+					<Tag name="Decameron::Instancia Base de datos(UML::Component)" type="" description="" unit="" values="" default="Instancia Base de datos"/>
+					<Tag name="Decameron::Instancia Componente(UML::Component)" type="" description="" unit="" values="" default="Instancia Componente"/>
+					<Tag name="Decameron::Instancia de runtime(UML::Component)" type="" description="" unit="" values="" default="Instancia Runtime"/>
+					<Tag name="Decameron::Instancia Servicio(UML::Component)" type="" description="" unit="" values="" default="Instancia Servicio"/>
+					<Tag name="Decameron::Ruta(UML::Class)" type="" description="" unit="" values="" default="Ruta"/>
+					<Tag name="Decameron::Servidor(UML::Class)" type="" description="" unit="" values="" default="Servidor"/>
+					<Tag name="UML::Artifact" type="" description="" unit="" values="" default="Archivo"/>
+					<Tag name="UML::Port" type="" description="" unit="" values="" default="Puerto"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

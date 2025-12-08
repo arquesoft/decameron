@@ -1,0 +1,67 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="F66CCE8CAD" name="Decameron" version="1.0" notes="Decameron"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Diagrama de Ciberseguridad" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Deployment">
+						<Property name="pdata" value="HideParents=1;"/>
+						<Property name="toolbox" value="Decameron_Decameron_-_Capa_de_Ciberseguridad"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Diagrama de Componentes" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Component">
+						<Property name="pdata" value="HideParents=1;"/>
+						<Property name="toolbox" value="Decameron_Decameron_-_Capa_de_Aplicación"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Diagrama de Contexto" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Logical">
+						<Property name="pdata" value="HideParents=1;"/>
+						<Property name="toolbox" value="Decameron_Decameron_-_General"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Diagrama de Datos" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Logical">
+						<Property name="pdata" value="HideParents=1;"/>
+						<Property name="toolbox" value="Decameron_Decameron_-_Capa_de_Datos"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Diagrama de Despliegue" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Deployment">
+						<Property name="pdata" value="HideParents=1;"/>
+						<Property name="toolbox" value="Decameron_Decameron_-_Capa_de_Infraestructura"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Diagrama General" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Logical">
+						<Property name="pdata" value="HideParents=1;"/>
+						<Property name="toolbox" value="Decameron_Decameron_-_General"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Digrama de Procesos" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Analysis">
+						<Property name="pdata" value="HideParents=1;"/>
+						<Property name="toolbox" value="Decameron_Decameron_-_Capa_de_Negocio"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

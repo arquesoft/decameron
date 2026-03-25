@@ -11,7 +11,7 @@
 					<Tag name="ArchiMate3::ArchiMate_BusinessActor(UML::Class)" type="" description="" unit="" values="" default="Actor de Negocio"/>
 					<Tag name="ArchiMate3::ArchiMate_BusinessInterface(UML::Interface)" type="" description="" unit="" values="" default="Canal de venta"/>
 					<Tag name="ArchiMate3::ArchiMate_BusinessService(UML::Activity)" type="" description="" unit="" values="" default="Servicio de Negocio"/>
-					<Tag name="ArchiMate3::ArchiMate_Location(UML::Class)" type="" description="" unit="" values="" default="Hotel"/>
+					<Tag name="ArchiMate3::ArchiMate_Location(UML::Class)" type="" description="" unit="" values="" default="País"/>
 					<Tag name="Decameron::Macroproceso(UML::Activity)" type="" description="" unit="" values="" default="Macroproceso"/>
 					<Tag name="Decameron::Proceso(UML::Activity)" type="" description="" unit="" values="" default="Proceso"/>
 					<Tag name="Decameron::Subproceso(UML::Activity)" type="" description="" unit="" values="" default="Subproceso"/>
@@ -25,11 +25,9 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="Decameron::Componente(UML::Component)" type="" description="" unit="" values="" default="Componente"/>
+					<Tag name="Decameron::Módulo(UML::Component)" type="" description="" unit="" values="" default="Módulo"/>
 					<Tag name="Decameron::Operación(UML::ProvidedInterface)" type="" description="" unit="" values="" default="Operación"/>
-					<Tag name="Decameron::Plataforma(UML::Component)" type="" description="" unit="" values="" default="Plataforma"/>
-					<Tag name="Decameron::Runtime(UML::Component)" type="" description="" unit="" values="" default="Runtime"/>
-					<Tag name="Decameron::Servicio(UML::Component)" type="" description="" unit="" values="" default="Servicio"/>
+					<Tag name="Decameron::Aplicación(UML::Component)" type="" description="" unit="" values="" default="Aplicación"/>
 					<Tag name="Decameron::Solución(UML::PackagingComponent)" type="" description="" unit="" values="" default="Solución"/>
 				</TaggedValues>
 			</Stereotype>

@@ -3,16 +3,14 @@
 	<Documentation id="6DCA45A558" name="Decameron_Decameron_-_Capa_de_Aplicación" version="1.0" alias="Decameron - Capa de Aplicación" notes="Alias=Decameron - Capa de Aplicación;"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="Decameron - Capa de Aplicación" notes="" cx="267" cy="114" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Decameron - Capa de Aplicación" notes="" cx="294" cy="114" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="Decameron::Componente(UML::Component)" type="" description="" unit="" values="" default="Componente"/>
+					<Tag name="Decameron::Módulo(UML::Component)" type="" description="" unit="" values="" default="Módulo"/>
 					<Tag name="Decameron::Operación(UML::ProvidedInterface)" type="" description="" unit="" values="" default="Operación"/>
-					<Tag name="Decameron::Plataforma(UML::Component)" type="" description="" unit="" values="" default="Plataforma"/>
-					<Tag name="Decameron::Runtime(UML::Component)" type="" description="" unit="" values="" default="Runtime"/>
-					<Tag name="Decameron::Servicio(UML::Component)" type="" description="" unit="" values="" default="Servicio"/>
+					<Tag name="Decameron::Aplicación(UML::Component)" type="" description="" unit="" values="" default="Aplicación"/>
 					<Tag name="Decameron::Solución(UML::PackagingComponent)" type="" description="" unit="" values="" default="Solución"/>
 				</TaggedValues>
 			</Stereotype>
